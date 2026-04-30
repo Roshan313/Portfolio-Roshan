@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roshan Khokrel Khatri — IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader">
+    <div class="loader-inner">
+      <span class="loader-text">RKK</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scrollTop" aria-label="Scroll to top"><i class="fa fa-arrow-up"></i></button>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">RKK<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+          <i class="fa fa-sun" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose"><i class="fa fa-times"></i></button>
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#experience" class="mob-link">Experience</a></li>
+      <li><a href="#education" class="mob-link">Education</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="glow-orb orb1"></div>
+      <div class="glow-orb orb2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="pulse-dot"></span> Available for IT Roles
+      </div>
+      <h1 class="hero-name reveal-up" style="--delay:0.1s">
+        Roshan<br/><em>Khokrel Khatri</em>
+      </h1>
+      <div class="hero-title reveal-up" style="--delay:0.2s">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-intro reveal-up" style="--delay:0.3s">
+        A motivated IT professional with a Bachelor of Information Technology and an ACS Professional Year candidacy — bridging technical expertise with real-world communication skills to solve complex problems.
+      </p>
+      <div class="hero-cta reveal-up" style="--delay:0.4s">
+        <a href="Roshan_Khokrel_Khatri_CV_QIBA_style.docx" download class="btn btn-primary">
+          <i class="fa fa-download"></i> Download CV
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa fa-envelope"></i> Contact Me
+        </a>
+      </div>
+      <div class="hero-socials reveal-up" style="--delay:0.5s">
+        <a href="https://www.linkedin.com/in/roshan-khokrel-khatri/" target="_blank" class="social-pill">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="tel:0426464765" class="social-pill">
+          <i class="fa fa-phone"></i> 0426 464 765
+        </a>
+        <a href="mailto:khokrelkhatriroshan@gmail.com" class="social-pill">
+          <i class="fa fa-envelope"></i> Email
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">About Me</div>
+      <div class="about-grid">
+        <div class="about-left reveal-left">
+          <h2 class="section-title">Building a career at the <em>intersection</em> of tech &amp; people.</h2>
+          <p class="about-para">
+            I'm Roshan — an IT professional based in Sydney, Australia. I completed my Bachelor of IT at Wentworth Institute of Higher Education and am currently undertaking the ACS Professional Year Program to bridge the gap between university learning and professional ICT practice.
+          </p>
+          <p class="about-para">
+            My background spans hands-on technical work, leadership, and high-pressure customer-facing environments — giving me a rare combination of hard tech skills and strong interpersonal abilities that make great IT support.
+          </p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years Leadership</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">HD</span>
+              <span class="stat-label">Academic Result</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">ACS</span>
+              <span class="stat-label">Member #4468712</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right reveal-right">
+          <div class="strength-cards">
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa fa-wrench"></i></div>
+              <h4>Troubleshooting</h4>
+              <p>Methodical diagnostics across hardware, software, and network issues — from root cause to resolution.</p>
+            </div>
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa fa-comments"></i></div>
+              <h4>Communication</h4>
+              <p>Translating technical problems into clear language — honed through years in customer-facing roles.</p>
+            </div>
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa fa-users"></i></div>
+              <h4>Teamwork</h4>
+              <p>Led multi-site teams, trained new staff, and collaborated cross-functionally to hit shared goals.</p>
+            </div>
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa fa-bolt"></i></div>
+              <h4>Fast Learner</h4>
+              <p>Pursuing MCSE certification while actively growing skills through the ACS Professional Year Program.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-label reveal-up">Technical Skills</div>
+      <h2 class="section-title centered reveal-up">My <em>Toolkit</em></h2>
+      <div class="skills-grid">
+        <!-- Programming -->
+        <div class="skill-group reveal-up" style="--delay:0s">
+          <div class="skill-group-header">
+            <i class="fa fa-code"></i>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-item" data-pct="80">
+              <div class="skill-label"><span>HTML & CSS</span><span class="pct">80%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item" data-pct="65">
+              <div class="skill-label"><span>Python</span><span class="pct">65%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-item" data-pct="55">
+              <div class="skill-label"><span>C++</span><span class="pct">55%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="55"></div></div>
+            </div>
+            <div class="skill-item" data-pct="70">
+              <div class="skill-label"><span>JavaScript</span><span class="pct">70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- OS -->
+        <div class="skill-group reveal-up" style="--delay:0.1s">
+          <div class="skill-group-header">
+            <i class="fa fa-desktop"></i>
+            <h3>Operating Systems</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Windows 10/11</span>
+            <span class="tag">Windows 7</span>
+            <span class="tag">Windows Server 2016</span>
+            <span class="tag">Windows Server 2019</span>
+            <span class="tag">macOS</span>
+          </div>
+        </div>
+        <!-- IT Support -->
+        <div class="skill-group reveal-up" style="--delay:0.2s">
+          <div class="skill-group-header">
+            <i class="fa fa-headset"></i>
+            <h3>IT Support</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Help Desk Support</span>
+            <span class="tag">Hardware Diagnostics</span>
+            <span class="tag">Software Troubleshooting</span>
+            <span class="tag">Network Security</span>
+            <span class="tag">User Account Support</span>
+            <span class="tag">IT Documentation</span>
+            <span class="tag">Ticketing Systems</span>
+          </div>
+        </div>
+        <!-- Microsoft -->
+        <div class="skill-group reveal-up" style="--delay:0.3s">
+          <div class="skill-group-header">
+            <i class="fab fa-microsoft"></i>
+            <h3>Microsoft Technologies</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-blue">Office 365</span>
+            <span class="tag tag-blue">Active Directory</span>
+            <span class="tag tag-blue">Windows Server</span>
+            <span class="tag tag-blue">Exchange / Mailboxes</span>
+            <span class="tag tag-blue">Visual Studio Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">Projects</div>
+      <h2 class="section-title centered reveal-up">What I've <em>Built</em></h2>
+      <div class="projects-grid">
+        <div class="project-card reveal-up" id="groceryCard">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon"><i class="fa fa-shopping-cart"></i></div>
+              <div class="project-meta">
+                <span class="project-date"><i class="fa fa-calendar"></i> Feb 2024</span>
+                <span class="project-grade grade-hd">High Distinction</span>
+              </div>
+            </div>
+            <h3 class="project-title">Online Grocery Store Website</h3>
+            <p class="project-desc">A fully responsive, customer-facing e-commerce website built in a team of three. Integrated Bootstrap templates, custom CSS for multi-page responsiveness, and DOM-based user interaction.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span><span>Java</span>
+            </div>
+            <button class="project-btn" onclick="openModal('grocery')">
+              View Details <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="project-card reveal-up" style="--delay:0.15s" id="clothingCard">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon"><i class="fa fa-tshirt"></i></div>
+              <div class="project-meta">
+                <span class="project-date"><i class="fa fa-calendar"></i> 2024</span>
+                <span class="project-grade grade-comp">Completed</span>
+              </div>
+            </div>
+            <h3 class="project-title">Online Clothing Store</h3>
+            <p class="project-desc">An independently built clothing e-commerce site using WordPress — showcasing product catalogue setup, content management, and responsive theme customisation.</p>
+            <div class="project-tags">
+              <span>WordPress</span><span>CMS</span><span>E-Commerce</span><span>Web Design</span>
+            </div>
+            <button class="project-btn" onclick="openModal('clothing')">
+              View Details <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+    <div class="modal" id="projectModal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()"><i class="fa fa-times"></i></button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <div class="section-label reveal-up">Experience</div>
+      <h2 class="section-title centered reveal-up">Work <em>History</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Cleaning Supervisor</h3>
+                <p class="timeline-company">Broadlex Cleaning Facility — Tallawong, Sydney</p>
+              </div>
+              <span class="timeline-date">Jan 2022 – Present</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Introduced scheduling improvements that reduced team downtime by ~15% across multiple Sydney Metro train sites</li>
+              <li>Acted as primary liaison between cleaning teams and site supervisors — directly transferable to IT helpdesk stakeholder management</li>
+              <li>Trained 10+ new staff members on safety protocols, adapting communication style to different learning styles</li>
+              <li>Managed shift handovers and tracked task completion via checklists — analogous to IT ticketing workflows</li>
+              <li>Coordinated a multi-site team while maintaining consistent quality and safety compliance standards</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Leadership</span><span>Communication</span><span>Process Improvement</span><span>Training</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Bartender</h3>
+                <p class="timeline-company">Criniti's Restaurant — Castle Hill, Sydney</p>
+              </div>
+              <span class="timeline-date">Jul 2023 – Mar 2024</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Managed 20+ simultaneous orders during peak service while maintaining near-zero errors</li>
+              <li>Recognised by management for building strong customer rapport, contributing to repeat business and positive reviews</li>
+              <li>Selected to train two new bartenders due to reliability and composure under pressure</li>
+              <li>Collaborated closely with front-of-house and kitchen teams to keep service seamless</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Multitasking</span><span>Customer Service</span><span>Teamwork</span><span>Pressure</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">Education</div>
+      <h2 class="section-title centered reveal-up">Academic <em>Background</em></h2>
+      <div class="edu-grid">
+
+        <div class="edu-card reveal-up" style="--delay:0s">
+          <div class="edu-icon"><i class="fa fa-graduation-cap"></i></div>
+          <div class="edu-badge">Current</div>
+          <h3>ACS Professional Year Program – ICT</h3>
+          <p class="edu-org">QIBA, Sydney Campus</p>
+          <p class="edu-date"><i class="fa fa-calendar"></i> Nov 2025 – Present</p>
+          <p class="edu-desc">Work-readiness program covering business communication, workplace relations, WHS, professional networking, report writing, and presentation skills — specifically designed for ICT graduates.</p>
+        </div>
+
+        <div class="edu-card reveal-up" style="--delay:0.15s">
+          <div class="edu-icon"><i class="fa fa-laptop-code"></i></div>
+          <div class="edu-badge edu-badge-done">Completed</div>
+          <h3>Bachelor of Information Technology</h3>
+          <p class="edu-org">Wentworth Institute of Higher Education, Sydney</p>
+          <p class="edu-date"><i class="fa fa-calendar"></i> Jul 2022 – Jun 2025</p>
+          <p class="edu-desc">Key subjects: Web Development, Project Management. Achieved High Distinction/Distinction results across core units. Developed strong foundations in programming, systems, and IT infrastructure.</p>
+        </div>
+
+        <div class="edu-card reveal-up" style="--delay:0.3s">
+          <div class="edu-icon"><i class="fab fa-microsoft"></i></div>
+          <div class="edu-badge edu-badge-progress">In Progress</div>
+          <h3>MCSE Certification</h3>
+          <p class="edu-org">Microsoft Certified Solutions Expert</p>
+          <p class="edu-date"><i class="fa fa-clock"></i> Currently Pursuing</p>
+          <p class="edu-desc">Pursuing the MCSE certification to formalise expertise in Microsoft server infrastructure, cloud services, and enterprise IT management solutions.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-label reveal-up">Contact</div>
+      <h2 class="section-title centered reveal-up">Let's <em>Connect</em></h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <p class="contact-intro">Whether you have a role in mind or just want to talk IT, I'm always open to a conversation. Reach out via any of the channels below.</p>
+          <div class="contact-items">
+            <a href="tel:0426464765" class="contact-item">
+              <div class="contact-item-icon"><i class="fa fa-phone"></i></div>
+              <div>
+                <span class="contact-item-label">Phone</span>
+                <span class="contact-item-val">0426 464 765</span>
+              </div>
+            </a>
+            <a href="mailto:khokrelkhatriroshan@gmail.com" class="contact-item">
+              <div class="contact-item-icon"><i class="fa fa-envelope"></i></div>
+              <div>
+                <span class="contact-item-label">Email</span>
+                <span class="contact-item-val">khokrelkhatriroshan@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/roshan-khokrel-khatri/" target="_blank" class="contact-item">
+              <div class="contact-item-icon"><i class="fab fa-linkedin"></i></div>
+              <div>
+                <span class="contact-item-label">LinkedIn</span>
+                <span class="contact-item-val">Roshan Khokrel Khatri</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fa fa-map-marker-alt"></i></div>
+              <div>
+                <span class="contact-item-label">Location</span>
+                <span class="contact-item-val">Sydney, Australia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal-right" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required />
+            <span class="form-error" id="nameErr">Please enter your name.</span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            <span class="form-error" id="emailErr">Please enter a valid email.</span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Job Opportunity / IT Enquiry" required />
+            <span class="form-error" id="subjectErr">Please enter a subject.</span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or opportunity..." required></textarea>
+            <span class="form-error" id="msgErr">Please write a message.</span>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <i class="fa fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fa fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">RKK<span class="dot">.</span></div>
+      <p class="footer-tagline">IT Support Technician | ACS Professional Year Candidate</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/roshan-khokrel-khatri/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:khokrelkhatriroshan@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+        <a href="tel:0426464765" aria-label="Phone"><i class="fa fa-phone"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Roshan Khokrel Khatri. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
